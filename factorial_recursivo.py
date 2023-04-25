@@ -6,6 +6,4 @@ def factorial_recursivo(n):
 
 print(factorial_recursivo(5))
 
-#De acuerdo al teorema del Maestro este algoritmo tiene una complejidad de O(logn) ya que primero "a" tiene una cantidad de llamados recursivos de 1, después n/b es igual a n-1
-#por lo tanto b=5/4 y finalmente tenemos que O(1) ya que las operaciones son en tiempo constante, por lo tanto c=0
-#Finalmente sustituyendo tenemos que O(logn).
+#Este algoritmo no puedo ser analizado con el teroema del Maestro ya que en primer lugar no se tiene un arreglo y termina en orden exponencial de acuerdo a la Big O.
